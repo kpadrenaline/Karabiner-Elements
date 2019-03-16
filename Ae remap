@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Swap Space and Tab</name>
+    <identifier>private.swap_space_and_tab</identifier>
+    <autogen>__KeyToKey__ KeyCode::SPACE, KeyCode::TAB</autogen>
+    <autogen>__KeyToKey__ KeyCode::TAB, KeyCode::SPACE</autogen>
+  </item>
+
+  <item>
+    <name>Left command + backquote = escape</name>
+    <identifier>private.leftcommand_plus_backquote_to_escape</identifier>
+    <autogen>
+        __KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::COMMAND_L, KeyCode::ESCAPE
+    </autogen>
+  </item>
+
+  <item>
+    <name>F15 to volume up</name>
+    <identifier>private.f15volup</identifier>
+    <autogen>--KeyToConsumer-- KeyCode::F15, ConsumerKeyCode::VOLUME_UP</autogen>
+  </item>
+</root>
